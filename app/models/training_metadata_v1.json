@@ -1,7 +1,7 @@
 {
   "model_type": "RandomForestClassifier",
   "model_version": "v1",
-  "training_date": "2025-09-22T01:19:42.213415",
+  "training_date": "2025-09-27T00:14:45.431363",
   "dataset": "Iris",
   "dataset_size": 150,
   "train_size": 120,
