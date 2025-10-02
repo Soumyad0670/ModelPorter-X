@@ -19,4 +19,4 @@ LOG_LEVEL
 
 FLASK_ENV
 
-gradio
+gradio==4.39.0
