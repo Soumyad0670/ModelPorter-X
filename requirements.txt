@@ -18,3 +18,5 @@ SECRET_KEY
 LOG_LEVEL
 
 FLASK_ENV
+
+gradio

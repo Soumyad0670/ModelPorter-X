@@ -183,3 +183,20 @@ def ratelimit_handler(e):
 
 # Export the blueprint
 __all__ = ['bp']
+
+import gradio as gr
+import joblib
+
+# Load your model (example: sklearn)
+model = joblib.load("model.pkl")
+
+def predict(text):
+    return model.predict([text])[0]
+
+demo = gr.Interface(fn=predict,
+                    inputs="text",
+                    outputs="text",
+                    title="My Model Demo",
+                    description="Enter text and see prediction")
+
+demo.launch()
